@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: prompt-vago-chiede-solo-bloccanti
+expected_outcome: |
+  Chiede al massimo 3 domande su obiettivo e contesto d'uso, non su ruolo o tono, in forma di scelte.

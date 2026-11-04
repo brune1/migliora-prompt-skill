@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: task-pianificato-agentico
+expected_outcome: |
+  Riconosce un prompt agentico non supervisionato, non si ferma a fare domande, rende il prompt autosufficiente e dichiara i default scelti.

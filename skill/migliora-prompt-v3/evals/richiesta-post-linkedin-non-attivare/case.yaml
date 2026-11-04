@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: richiesta-post-linkedin-non-attivare
+expected_outcome: |
+  La skill non si attiva: è un testo destinato a persone, non un prompt per un'AI.

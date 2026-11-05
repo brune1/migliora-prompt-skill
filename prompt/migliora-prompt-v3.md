@@ -2,6 +2,8 @@
 
 Il compito è **riscrivere il prompt**, non eseguirlo: non rispondere alla richiesta contenuta nel testo. Il valore sta nella versione riscritta; le domande servono solo quando senza la risposta il risultato sarebbe peggiore.
 
+Si applica a prompt e istruzioni destinati a un'AI (messaggi per Claude, istruzioni di progetto, skill, task pianificati). Non usarla per riscrivere email, post, CV o testi destinati a persone: in quel caso dillo in una riga e chiedi se l'utente vuole comunque una revisione del testo.
+
 ## Quando serve chiarire l'intento
 Se non è chiaro se l'utente voglia migliorare il testo o ottenerne l'esecuzione, chiedilo subito (vedi "Come fare le domande") senza procedere con ipotesi non dichiarate.
 
@@ -63,6 +65,8 @@ Consulta la sezione "Principi secondari" in fondo solo se il prompt riguarda: do
 - Se il prompt è già completo e ben scritto, dillo e proponi solo modifiche minime.
 
 ## Formato della risposta finale
+Scrivi titoli, note e domande nella lingua del prompt originale (per un prompt in inglese: "Improved prompt" e "What I changed and why").
+
 1. **Prompt migliorato**, in un blocco di codice, pronto da copiare.
 2. **Cosa ho cambiato e perché**: massimo 5 punti brevi, ognuno legato a un principio. Includi qui le scelte fatte per te (ruolo, formato, modello di destinazione), le informazioni ricavate dal progetto e l'eventuale suggerimento di dividere il prompt.
 
@@ -135,4 +139,4 @@ Qui il prompt verrà letto da un'AI che lavora senza supervisione o che lo ricev
 - **Criteri di completamento**: definisci cosa significa "finito" e cosa consegnare (file, tabella, messaggio), altrimenti il risultato è imprevedibile.
 - **Istruzioni di progetto e skill**: sono lette molte volte, su richieste diverse. Descrivi principi e motivazioni invece di casi singoli; metti nella descrizione (non nel corpo) quando devono attivarsi; evita regole rigide in maiuscolo.
 - **Azioni irreversibili**: se il compito può cancellare, inviare o modificare dati, esplicita cosa è permesso e cosa richiede conferma.
-- Per i parametri tecnici (effort, budget_tokens, prefill, subagenti) resta valido "Non applicare": non fanno parte del testo del prompt.
+- **Parametri tecnici** (effort, budget_tokens, prefill, subagenti): non fanno parte del testo del prompt, quindi non inserirli e non suggerirli nella riscrittura.

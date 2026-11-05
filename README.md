@@ -30,7 +30,12 @@ Skill per Claude che riscrive un prompt applicando le best practice ufficiali di
 2. Copia la cartella `migliora-prompt-v3` in `~/.claude/skills/`.
 
 **Solo copia-incolla (senza installare)**
-Apri [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copia il testo e incollalo all'inizio di una chat con Claude.
+Apri [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copia il testo e incollalo all'inizio di una chat con Claude, poi scrivi il prompt da migliorare. Questa versione contiene tutte le regole in un unico testo.
+
+### Struttura del repository
+- `skill/migliora-prompt-v3/`: la skill (`SKILL.md` e `references/`).
+- `skill/migliora-prompt-v3/evals/`: casi di test per verificare la skill, non servono per usarla (lo ZIP delle Release non li include).
+- `prompt/`: versione copia-incolla.
 
 ### Esempio d'uso
 Scrivi in chat:
@@ -58,7 +63,7 @@ A Claude skill that rewrites a prompt using Anthropic's official best practices.
 - Inside a Claude project, it uses the project's instructions, files and chats as context, only when the prompt depends on them.
 - It does not trigger for emails, posts or texts meant for people.
 
-> Note: the skill's instructions are written in Italian, and it replies in the language of your prompt.
+> Note: the skill's instructions are written in Italian, and it replies (including headings and questions) in the language of your prompt.
 
 ### Installation
 
@@ -72,7 +77,12 @@ A Claude skill that rewrites a prompt using Anthropic's official best practices.
 2. Copy the `migliora-prompt-v3` folder into `~/.claude/skills/`.
 
 **Copy and paste only (no install)**
-Open [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copy the text and paste it at the start of a chat with Claude.
+Open [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copy the text and paste it at the start of a chat with Claude, then write the prompt to improve. This version contains all the rules in a single text.
+
+### Repository structure
+- `skill/migliora-prompt-v3/`: the skill (`SKILL.md` and `references/`).
+- `skill/migliora-prompt-v3/evals/`: test cases to check the skill, not needed to use it (the release ZIP does not include them).
+- `prompt/`: copy-and-paste version.
 
 ### Usage example
 Type in chat:

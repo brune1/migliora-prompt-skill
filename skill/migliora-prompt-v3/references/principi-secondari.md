@@ -37,4 +37,4 @@ Qui il prompt verrà letto da un'AI che lavora senza supervisione o che lo ricev
 - **Criteri di completamento**: definisci cosa significa "finito" e cosa consegnare (file, tabella, messaggio), altrimenti il risultato è imprevedibile.
 - **Istruzioni di progetto e skill**: sono lette molte volte, su richieste diverse. Descrivi principi e motivazioni invece di casi singoli; metti nella descrizione (non nel corpo) quando devono attivarsi; evita regole rigide in maiuscolo.
 - **Azioni irreversibili**: se il compito può cancellare, inviare o modificare dati, esplicita cosa è permesso e cosa richiede conferma.
-- Per i parametri tecnici (effort, budget_tokens, prefill, subagenti) resta valido "Non applicare": non fanno parte del testo del prompt.
+- **Parametri tecnici** (effort, budget_tokens, prefill, subagenti): non fanno parte del testo del prompt, quindi non inserirli e non suggerirli nella riscrittura.

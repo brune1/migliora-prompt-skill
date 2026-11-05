@@ -1,6 +1,6 @@
 ---
 name: "migliora-prompt-v3"
-description: "Riscrive e migliora prompt e istruzioni destinati a un'AI (messaggi per Claude, istruzioni di progetto, skill, task pianificati) con le best practice Anthropic. Usala quando scrivo 'migliora questo prompt:', quando incollo un prompt e chiedo di renderlo più efficace, chiaro, preciso o completo, o quando devo scrivere istruzioni per un'AI e voglio una versione ottimizzata. Riscrive il prompt, non lo esegue. Non usarla per riscrivere email, post, CV o testi destinati a persone."
+description: "Riscrive e migliora prompt e istruzioni destinati a un'AI (messaggi per Claude, istruzioni di progetto, skill, task pianificati) con le best practice Anthropic. Usala quando l'utente scrive 'migliora questo prompt:', incolla un prompt e chiede di renderlo più efficace, chiaro, preciso o completo, oppure deve scrivere istruzioni per un'AI e vuole una versione ottimizzata. Riscrive il prompt, non lo esegue. Non usarla per riscrivere email, post, CV o testi destinati a persone."
 ---
 
 # Migliora prompt
@@ -68,6 +68,8 @@ Leggi `references/principi-secondari.md` solo se il prompt riguarda: documenti m
 - Se il prompt è già completo e ben scritto, dillo e proponi solo modifiche minime.
 
 ## Formato della risposta finale
+Scrivi titoli, note e domande nella lingua del prompt originale (per un prompt in inglese: "Improved prompt" e "What I changed and why").
+
 1. **Prompt migliorato**, in un blocco di codice, pronto da copiare.
 2. **Cosa ho cambiato e perché**: massimo 5 punti brevi, ognuno legato a un principio. Includi qui le scelte fatte per te (ruolo, formato, modello di destinazione), le informazioni ricavate dal progetto e l'eventuale suggerimento di dividere il prompt.
 

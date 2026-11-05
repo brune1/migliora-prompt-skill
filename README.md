@@ -21,7 +21,7 @@ Skill per Claude che riscrive un prompt applicando le best practice ufficiali di
 ### Installazione
 
 **Claude.ai (consigliato)**
-1. Scarica `migliora-prompt-v3.zip` dalla [pagina Release](https://github.com/brune1/migliora-prompt-skill/releases/latest).
+1. Scarica [`migliora-prompt-v3.zip`](https://github.com/brune1/migliora-prompt-skill/raw/main/dist/migliora-prompt-v3.zip) (cartella `dist/` del repository).
 2. Su Claude.ai vai in **Settings → Capabilities → Skills** (il percorso può variare).
 3. Carica lo ZIP e attiva la skill.
 
@@ -34,7 +34,8 @@ Apri [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copia il te
 
 ### Struttura del repository
 - `skill/migliora-prompt-v3/`: la skill (`SKILL.md` e `references/`).
-- `skill/migliora-prompt-v3/evals/`: casi di test per verificare la skill, non servono per usarla (lo ZIP delle Release non li include).
+- `skill/migliora-prompt-v3/evals/`: casi di test per verificare la skill, non servono per usarla (lo ZIP non li include).
+- `dist/`: ZIP pronto da installare.
 - `prompt/`: versione copia-incolla.
 
 ### Esempio d'uso
@@ -68,7 +69,7 @@ A Claude skill that rewrites a prompt using Anthropic's official best practices.
 ### Installation
 
 **Claude.ai (recommended)**
-1. Download `migliora-prompt-v3.zip` from the [Releases page](https://github.com/brune1/migliora-prompt-skill/releases/latest).
+1. Download [`migliora-prompt-v3.zip`](https://github.com/brune1/migliora-prompt-skill/raw/main/dist/migliora-prompt-v3.zip) (`dist/` folder of the repository).
 2. On Claude.ai go to **Settings → Capabilities → Skills** (the path may vary).
 3. Upload the ZIP and enable the skill.
 
@@ -81,7 +82,8 @@ Open [`prompt/migliora-prompt-v3.md`](prompt/migliora-prompt-v3.md), copy the te
 
 ### Repository structure
 - `skill/migliora-prompt-v3/`: the skill (`SKILL.md` and `references/`).
-- `skill/migliora-prompt-v3/evals/`: test cases to check the skill, not needed to use it (the release ZIP does not include them).
+- `skill/migliora-prompt-v3/evals/`: test cases to check the skill, not needed to use it (the ZIP does not include them).
+- `dist/`: ready-to-install ZIP.
 - `prompt/`: copy-and-paste version.
 
 ### Usage example
